@@ -1,0 +1,14 @@
+import math
+n=raw_input()
+r=0
+while (r!=int(n)):
+	c=len(str(r))
+	sum=0
+	numb=r
+	while(numb!=0):
+		v=(numb%10)
+		sum=sum+math.pow(v,c)
+		numb=numb/10
+	if (sum==r):
+		print r 
+	r=r+1
