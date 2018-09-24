@@ -65,7 +65,7 @@ $ python
 1.5
 ```
 
-## Comaprision operations: 
+## Comparision operations: 
 - a == b 
 Equal to condition.
 - a < b 
