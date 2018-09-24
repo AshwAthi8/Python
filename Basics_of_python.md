@@ -140,11 +140,11 @@ Python can also understand logical operations when written in english :
 - in
 
 ## Basic Data Types
-- Integer
-- Float 
-- Complex
-- Boolean
-- String
+- Integer       eg: -4, 0, 32 
+- Float         eg: -44.3, 0.55, 7.0
+- Complex       eg: 3+2i, 4-i, -2-3i
+- Boolean       true or false
+- String        eg: 'Smile', '44', 'disc0ver'
 
 > To check the datatype, python has built in function type().
 
