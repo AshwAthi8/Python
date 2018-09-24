@@ -65,7 +65,7 @@ $ python
 1.5
 ```
 
-## Comparision operations: 
+## Comparision operators: 
 - a == b 
 Equal to condition.
 - a < b 
@@ -79,7 +79,7 @@ Greater than or equal to condition.
 - a != b
 Not equal to condition.
 
-## Assignment Operation '='
+## Assignment Operator '='
 
 a=b the value of b is assigned to a.
 
@@ -92,7 +92,7 @@ a=b the value of b is assigned to a.
 >>> bin(2)
 '0b10'
 ```
-#### a&b bitwise AND of a and b:
+#### a&b bitwise AND of a,b:
 
 ```sh 
 >>> 3&2
@@ -101,7 +101,7 @@ a=b the value of b is assigned to a.
 Each bit is taken taken and AND opeartion is performed.
 so the result we get is 0b010, which is 2. 
 
-#### a|b bitwise OR of a and b:
+#### a|b bitwise OR of a,b:
 ```sh 
 >>> 3|2
 3
@@ -109,7 +109,7 @@ so the result we get is 0b010, which is 2.
 Each bit is taken taken and OR opeartion is performed.
 so the result we get is 0b11, which is 3. 
 
-#### a^b bitwise XOR of a and b:
+#### a^b bitwise XOR of a,b:
 ```sh 
 >>> 3^2
 1
@@ -117,7 +117,7 @@ so the result we get is 0b11, which is 3.
 Each bit is taken taken and XOR opeartion is performed. In XOR, if both bits are same then the result is 0, else 1. So 1^1 is 0 while 1^0 is 1.
 Hence, the result we get for 3^2 (0b11^0b10) is 0b001, which is 1. 
 
-#### a<<b bitwise left shift of a b times: 
+#### a<<b it will shift the bits of a in binary format to left, this shift is done b times: 
 ```sh 
 >>> 3<<2
 12
@@ -126,7 +126,7 @@ Hence, the result we get for 3^2 (0b11^0b10) is 0b001, which is 1.
 ```
 Binary representation of 3 is 0b11, which is shifted twice to left. So the result is 0b1100 that is 12.
 
-#### a>>b bitwise right shift of a b times:
+#### a>>b it will shift the bits of a in binary format to right, this shift is done b times:
 ```sh 
 >>> 3>>1
 1
@@ -208,10 +208,10 @@ In a similar way we can change the data type from int to float  and many more.
 ***
 - ***In all the above cases, if python 2 is used then, in place of input() use raw_input().***
 
-- ***For print statmemts in python3, the synatx is ```>>>print("Secure") ```. While in python 2, there is no need of parenthesis () but it wont show any error even if we use parenthesis (). It is ```>>>print "Secure" ``` ```>>>print ("Secure" )``` or .***
+- ***For print statememt in python3, the synatx is ```>>>print("Secure") ```. While in python 2, there is no need of parenthesis () but it wont show any error even if we use parenthesis (). It is ```>>>print "Secure" ``` ```>>>print ("Secure" )``` or .***
 ***
 
-## Condition Statements
+## Conditional Statements
 
 ### if statements
 
@@ -242,7 +242,7 @@ $ python
 you are eligible to vote
 >>> 
 ``` 
-If we have one than one condition to check we can use a elif statement.
+If we have moere than one condition to check we can use elif statements.
 
 ```sh 
 $ python3
