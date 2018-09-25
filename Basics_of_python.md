@@ -88,7 +88,7 @@ Press enter.
 ```
 Index value starts from 0.
 
-![home](st.png)
+![home](string.png)
 
 Things to know:
 
