@@ -38,7 +38,7 @@ In a similar way we can change the data type from int to float  and many more.
 ***
 - ***In all the above cases, if python 2 is used then, in place of input() use raw_input().***
 
-- ***For print statememt in python3, the synatx is ```>>>print("Secure") ```. While in python 2, there is no need of parenthesis () but it wont show any error even if we use parenthesis (). It is ```>>>print "Secure" ``` ```>>>print ("Secure" )``` or .***
+- ***For print statememt in python3, the synatx is ```>>>print("Secure") ```. While in python 2, there is no need of parenthesis () but it won't show any error even if we use parenthesis (). It is ```>>>print "Secure" ``` or ```>>>print ("Secure" )``` .***
 ***
 
 ## Operations 
