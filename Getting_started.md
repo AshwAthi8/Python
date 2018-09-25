@@ -148,15 +148,14 @@ Python has built-in funtion ```string_name.split("")```.
 It will split the string into substrings when it encounters the character in quotations.
 If nothing is specifed in the quotes, then it will dispaly error.
 
-
 Example 1 
 
-If we want to separate string into subtrings, when there is a space:
+If we want to separate the string into subtrings, when there is a space:
 
 ```sh 
 >>>a.split(" ")
 ```
-It will give us a list with the substrings which are separated by the specified in quotations (here split(" ") i.e. space).
+It will give us a list with the substrings which are separated by what is specified in quotations (here split(" ") i.e. space).
 #### Output
 ```sh 
 ['I', 'can', 'crack', 'your', 'password']
