@@ -10,6 +10,7 @@ $ python
 $ python3
 ``` 
  This will open python shell in your terminal.  
+ 
 ```sh
 >>>
 ```
@@ -244,7 +245,7 @@ $ python3
 ...else:
 ...    print(“you are not eligible to vote”)
 ``` 
-press enter button twice for output.
+Press enter button twice for output.
 
 ### Output
 
@@ -263,7 +264,7 @@ $ python
 ...else:
 ...    print “you are not eligible to vote”
 ```
-press enter button twice for output.
+Press enter button twice for output.
 
 ### Output
 
@@ -288,7 +289,7 @@ $ python3
 ...else:
         print(“you are a senior citizen”)
 ``` 
-press enter button twice for output.
+Press enter button twice for output.
 
 ### Output
 ```sh 
@@ -310,7 +311,7 @@ $ python
 ...else:
         print “you are a senior citizen”
 ```
-press enter button twice for output.
+Press enter button twice for output.
 
 #### Output
 ```sh 
@@ -328,6 +329,7 @@ for variable in range(start,end,incrementation):
     statments
 ```
 If not mentioned then starting is taken as 0 and incrementation as 1 to the specified end point.
+
 This code is valid for both python 3 and python 2.
 
 Example 1
@@ -339,7 +341,7 @@ $ python
 
 ```
 
-press enter button twice for output.
+Press enter button twice for output.
 #### Output
 ```sh
 welcome to the world of security
@@ -357,7 +359,7 @@ $ python3
 >>>for i in c:
 ...     print(i)
 ```
-press enter button twice for output.
+Press enter button twice for output.
 #### Output
 ```sh
 t
@@ -390,6 +392,9 @@ $ python3
 ...     print(flag)
 ...     flag=flag+1
 ```
+Press enter button twice for output.
+
+#### Output
 ```sh 
 0
 1
@@ -408,7 +413,7 @@ $ python3
 ...     for j in range (2):
 ...         print(“this is nested”)
 ```
-press enter button twice for output.
+Press enter button twice for output.
 
 #### Output
 
