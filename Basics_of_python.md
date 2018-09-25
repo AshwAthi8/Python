@@ -86,14 +86,15 @@ Press enter.
 ```sh 
 8
 ```
-Index values starts from 0.
+Index value starts from 0.
 
 ![home](st.png)
 
 Things to know:
 
 Syntax for extracting a part of the string : 
-### string_name[starting:ending:incrementation]
+
+#### string_name[starting:ending:incrementation]
 
 
 ```sh 
@@ -131,9 +132,13 @@ For the 10th character.
 'k'
 ```
 To Extract the characters at even indices.
+
+To include the last character, we need to specify the ending point as 25.
+
 ```sh 
 >>>a[0:25:2]
 ```
+
 #### Output
 ```sh 
 'Icncakyu asod'
