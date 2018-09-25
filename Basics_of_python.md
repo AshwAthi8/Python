@@ -63,6 +63,79 @@ Convertion to a valid datatype is possible with the help of typecasting.
 >>>float(num)
 33.0
 ```
+
+## Strings
+
+These are set of characters closed with double or single quotes are called strings.  
+string="security"
+Here security is written in double quotes, hence is taken as a string.
+with length as 8.
+
+To check length, python has built-in funtion, ```len(string name)```.
+
+```sh 
+>>> string="security"
+>>>len(string)
+```
+
+Press enter.
+#### Output
+```sh 
+8
+```
+Index values starts from 0.
+
+![home](st.png)
+
+Things to know:
+
+Syntax for extracting a part of the string : 
+### string_name[starting:ending:incrementation]
+
+
+```sh 
+>>>a='I can crack your password'
+>>>len(a)
+```
+
+#### Output
+```sh 
+25
+```
+It starts from 0 to 24, thus in total 25.
+
+```sh 
+>>>a[0:24]
+```
+#### Output
+```sh 
+'I can crack your password'
+```
+For only the fisrt 5 characters.
+```sh 
+>>>a[0:5]
+```
+#### Output
+```sh 
+'I can'
+```
+For the 10th character.
+```sh 
+>>>a[10]
+```
+#### Output
+```sh 
+'k'
+```
+To Extract the characters at even indices.
+```sh 
+>>>a[0:25:2]
+```
+#### Output
+```sh 
+'Icncakyu asod'
+```
+
 # Basics
  ### I/O Methods 
  
@@ -116,7 +189,7 @@ In a similar way we can change the data type from int to float  and many more.
 -1
 >>>a * b
 30
-a/b
+>>>a/b
 0.8333333333333334
 >>>a//b
 0
