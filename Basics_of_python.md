@@ -101,6 +101,8 @@ a=b the value of b is assigned to a.
 Each bit is taken taken and AND opeartion is performed.
 so the result we get is 0b010, which is 2. 
 
+![home](AND.png)
+
 #### a|b bitwise OR of a,b:
 ```sh 
 >>> 3|2
@@ -108,7 +110,8 @@ so the result we get is 0b010, which is 2.
 ```
 Each bit is taken taken and OR opeartion is performed.
 so the result we get is 0b11, which is 3. 
-![home](XOR.png)
+
+![home](OR.png)
 
 #### a^b bitwise XOR of a,b:
 ```sh 
@@ -117,6 +120,8 @@ so the result we get is 0b11, which is 3.
 ```
 Each bit is taken taken and XOR opeartion is performed. In XOR, if both bits are same then the result is 0, else 1. So 1^1 is 0 while 1^0 is 1.
 Hence, the result we get for 3^2 (0b11^0b10) is 0b001, which is 1. 
+
+![home](XOR.png)
 
 #### a<<b it will shift the bits of a in binary format to left, this shift is done b times: 
 ```sh 
@@ -127,12 +132,17 @@ Hence, the result we get for 3^2 (0b11^0b10) is 0b001, which is 1.
 ```
 Binary representation of 3 is 0b11, which is shifted twice to left. So the result is 0b1100 that is 12.
 
+![home](LeftShift.png)
+
 #### a>>b it will shift the bits of a in binary format to right, this shift is done b times:
 ```sh 
 >>> 3>>1
 1
 ```
 Binary representation of 3 is 0b11, which is shifted once to right. So the result is 0b1 that is 1.
+
+
+![home](RightShift.png)
 
 Python can also understand logical operations when written in english :
 - and
