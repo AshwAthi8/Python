@@ -140,11 +140,14 @@ To Extract the characters at even indices.
 ```
 Python has built-in funtion ```string_name.split("")```.
 
-It will split the string into substrings when it encounters the character in quotaions.If nothing is given then it will remove the spaces at the starting and end, if present.
+It will split the string into substrings when it encounters the character in quotations.
+If nothing is specifed in the quotes, then it will dispaly error.
 
-If we want to separate string into subtrings, when there is a space.
 
 Example 1 
+
+If we want to separate string into subtrings, when there is a space:
+
 ```sh 
 >>>a.split(" ")
 ```
