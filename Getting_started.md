@@ -106,7 +106,7 @@ Syntax for extracting a part of the string :
 ```sh 
 25
 ```
-It starts from 0 to 24, thus in total 25.
+It starts from 0 to 24, thus in total 25 characters. 
 
 ```sh 
 >>>a[0:24]
