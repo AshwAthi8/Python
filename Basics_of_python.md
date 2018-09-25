@@ -66,10 +66,12 @@ Convertion to a valid datatype is possible with the help of typecasting.
 
 ## Strings
 
-These are set of characters closed with double or single quotes are called strings.  
 string="security"
-Here security is written in double quotes, hence is taken as a string.
-with length as 8.
+These are set of characters closed with double or single quotes.  
+
+Here security is written in double quotes, hence it is taken as a string.
+
+With length as 8.
 
 To check length, python has built-in funtion, ```len(string name)```.
 
@@ -79,15 +81,17 @@ To check length, python has built-in funtion, ```len(string name)```.
 ```
 
 Press enter.
+
 #### Output
 ```sh 
 8
 ```
+
 Index values starts from 0.
 
 ![home](st.png)
 
-Things to know:
+### Things to know:
 
 Syntax for extracting a part of the string : 
 ### string_name[starting:ending:incrementation]
@@ -233,7 +237,7 @@ a=b the value of b is assigned to a.
 
 ## Binary Operations
 
- To understand this, use python built in funtion ```$ bin(n)```. It will show the binary form of number n.
+ To understand this, use python built in funtion ```bin(n)```. It will show the binary form of number n.
  ```sh 
 >>> bin(3)
 '0b11'
