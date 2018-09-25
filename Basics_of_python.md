@@ -90,7 +90,7 @@ Index value starts from 0.
 
 ![home](string.png)
 
-Things to know:
+**Things to know:**
 
 Syntax for extracting a part of the string : 
 
