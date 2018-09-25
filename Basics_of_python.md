@@ -108,6 +108,7 @@ so the result we get is 0b010, which is 2.
 ```
 Each bit is taken taken and OR opeartion is performed.
 so the result we get is 0b11, which is 3. 
+![home](XOR.png)
 
 #### a^b bitwise XOR of a,b:
 ```sh 
