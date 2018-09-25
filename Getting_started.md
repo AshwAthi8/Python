@@ -66,7 +66,7 @@ Convertion to a valid datatype is possible with the help of typecasting.
 
 ## Strings
 
-These are set of characters closed with double or single quotes are called strings.  
+These are set of characters closed with double or single quotes.  
 
 string="security"
 
