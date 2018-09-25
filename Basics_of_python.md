@@ -66,10 +66,11 @@ Convertion to a valid datatype is possible with the help of typecasting.
 
 ## Strings
 
-string="security"
-These are set of characters closed with double or single quotes.  
+These are set of characters closed with double or single quotes are called strings.  
 
-Here security is written in double quotes, hence it is taken as a string.
+string="security"
+
+Here security is written in double quotes, hence is taken as a string.
 
 With length as 8.
 
@@ -81,17 +82,15 @@ To check length, python has built-in funtion, ```len(string name)```.
 ```
 
 Press enter.
-
 #### Output
 ```sh 
 8
 ```
-
 Index values starts from 0.
 
 ![home](st.png)
 
-### Things to know:
+Things to know:
 
 Syntax for extracting a part of the string : 
 ### string_name[starting:ending:incrementation]
@@ -138,6 +137,32 @@ To Extract the characters at even indices.
 #### Output
 ```sh 
 'Icncakyu asod'
+```
+Python has built-in funtion ```string_name.split("")```.
+
+It will split the string into substrings when it encounters the character in quotaions.If nothing is given then it will remove the spaces at the starting and end, if present.
+
+If we want to separate string into subtrings, when there is a space.
+
+Example 1 
+```sh 
+>>>a.split(" ")
+```
+It will give us a list with the substrings which are separated by the specified in quotations (here split(" ") i.e. space).
+#### Output
+```sh 
+['I', 'can', 'crack', 'your', 'password']
+```
+Example 2
+
+```sh 
+>>>new='safe, secure, security'
+>>>new.split(",")
+```
+#### Output
+
+```sh 
+['safe', ' secure', ' security']
 ```
 
 # Basics
