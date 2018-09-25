@@ -31,6 +31,79 @@ The output will be displayed in the python shell as:
 ```sh
 >>> Unlock the world of security
 ``` 
+
+## Basic Data Types
+- Integer       eg: -4, 0, 32 
+- Float         eg: -44.3, 0.55, 7.0
+- Complex       eg: 3+2i, 4-i, -2-3i
+- Boolean       true or false
+- String        eg: 'Smile', '44', 'disc0ver'
+
+> To check the datatype, python has built in function type().
+
+```sh
+>>> n=1729
+>>>type(n)
+<class 'int'>
+>>>s="H4cker"
+>>>type(s)
+<class 'str'>
+>>>f=17.29
+>>>type(f)
+<class 'float'>
+```
+Convertion to a valid datatype is possible with the help of typecasting.
+
+```sh
+>>>f=212.34
+>>>int(f)
+212
+>>>num=33
+>>>float(num)
+33.0
+```
+# Basics
+ ### I/O Methods 
+ 
+For taking input:
+```sh
+$ python
+>>>raw_input()
+this is taken as input 
+'this is taken as input'
+``` 
+> In python3, there is no need for raw_input(). 
+
+```sh
+$ python3
+>>>input()
+this is taken as input
+'this is taken as input'
+```
+> By default input is taken as string.
+
+```sh
+>>>n=input()
+3
+>>>print(type(n))
+<class 'str'>
+```
+To convert the datatype, we need to typecast it separately.
+> Typecast: Converting the datatype of a variable from one to another.
+
+```sh
+>>>n=int(input())
+3
+>>>print(type(n))
+<class 'int'>
+```
+In a similar way we can change the data type from int to float  and many more.
+***
+- ***In all the above cases, if python 2 is used then, in place of input() use raw_input().***
+
+- ***For print statememt in python3, the synatx is ```>>>print("Secure") ```. While in python 2, there is no need of parenthesis () but it wont show any error even if we use parenthesis (). It is ```>>>print "Secure" ``` ```>>>print ("Secure" )``` or .***
+***
+
 ## Operations 
 
 ```sh
@@ -46,11 +119,12 @@ a/b
 0.8333333333333334
 >>>a//b
 0
->>>a%b
+>>>a % b
 5
->>>a**b
+>>>a ** b
 15625
 ```
+
 -  // shows the quotient.
 -  % show the remainder.
 -  ** is a to the power b or a raised to b.
@@ -108,7 +182,7 @@ so the result we get is 0b010, which is 2.
 >>> 3|2
 3
 ```
-Each bit is taken taken and OR opeartion is performed.
+Each bit is taken and OR opeartion is performed.
 so the result we get is 0b11, which is 3. 
 
 ![home](OR.png)
@@ -118,7 +192,7 @@ so the result we get is 0b11, which is 3.
 >>> 3^2
 1
 ```
-Each bit is taken taken and XOR opeartion is performed. In XOR, if both bits are same then the result is 0, else 1. So 1^1 is 0 while 1^0 is 1.
+Each bit is taken and XOR opeartion is performed. In XOR, if both bits are same then the result is 0, else 1. So 1^1 is 0 while 1^0 is 1.
 Hence, the result we get for 3^2 (0b11^0b10) is 0b001, which is 1. 
 
 ![home](XOR.png)
@@ -150,77 +224,6 @@ Python can also understand logical operations when written in english :
 - not 
 - in
 
-## Basic Data Types
-- Integer       eg: -4, 0, 32 
-- Float         eg: -44.3, 0.55, 7.0
-- Complex       eg: 3+2i, 4-i, -2-3i
-- Boolean       true or false
-- String        eg: 'Smile', '44', 'disc0ver'
-
-> To check the datatype, python has built in function type().
-
-```sh
->>> n=1729
->>>type(n)
-<class 'int'>
->>>s="H4cker"
->>>type(s)
-<class 'str'>
->>>f=17.29
->>>type(f)
-<class ''float>
-```
-Convertion to a valid datatype is possible with the help of typecasting.
-
-```sh
->>>f=212.34
->>>int(f)
-212
->>>num=33
->>>float(num)
-33.0
-```
-# Basics
- ### I/O Methods 
- 
-For taking input:
-```sh
-$ python
->>>raw_input()
-this is taken as input 
-'this is taken as input'
-``` 
-> In python3, there is no need for raw_input(). 
-
-```sh
-$ python3
->>>input()
-this is taken as input
-'this is taken as input'
-```
-> By default input is taken as string.
-
-```sh
->>>n=input()
-3
->>>print(type(n))
-<class 'str'>
-```
-To convert the datatype, we need to typecast it separately.
-> Typecast: Converting the datatype of a variable from one to another.
-
-```sh
->>>n=int(input())
-3
->>>print(type(n))
-<class 'int'>
-```
-In a similar way we can change the data type from int to float  and many more.
-***
-- ***In all the above cases, if python 2 is used then, in place of input() use raw_input().***
-
-- ***For print statememt in python3, the synatx is ```>>>print("Secure") ```. While in python 2, there is no need of parenthesis () but it wont show any error even if we use parenthesis (). It is ```>>>print "Secure" ``` ```>>>print ("Secure" )``` or .***
-***
 
 ## Conditional Statements
 
@@ -230,6 +233,7 @@ In a similar way we can change the data type from int to float  and many more.
 If condition statements are to be used when you have a set of statements which is to be executed when a particular condition is satisfied. 
  For example if a person's age is above 18, he is eligible to vote. If not, he is not eligible to vote. 
 
+Example 1 
 
 ```sh 
 $ python3
@@ -239,9 +243,17 @@ $ python3
 ...    print(“you are eligible to vote”)
 ...else:
 ...    print(“you are not eligible to vote”)
-you are eligible to vote
->>> 
 ``` 
+press enter button twice for output.
+
+### Output
+
+```sh 
+you are eligible to vote
+>>>
+``` 
+Example 2
+
 ```sh 
 $ python
 >>>age=int(raw_input())
@@ -250,10 +262,17 @@ $ python
 ...    print “you are eligible to vote”
 ...else:
 ...    print “you are not eligible to vote”
+```
+press enter button twice for output.
+
+### Output
+
+```sh 
 you are eligible to vote
->>> 
-``` 
-If we have moere than one condition to check we can use elif statements.
+```
+Example 3
+
+If we have more than one condition to check we can use elif statements.
 
 ```sh 
 $ python3
@@ -267,9 +286,15 @@ $ python3
 ...     print(“you are an adult”)
 ...else:
         print(“you are a senior citizen”)
+``` 
+press enter button twice for output.
+
+### Output
+```sh 
 you are a senior citizen
 >>>
 ``` 
+Example 4
 
 ```sh 
 $ python
@@ -283,9 +308,14 @@ $ python
 ...     print “you are an adult”
 ...else:
         print “you are a senior citizen”
+```
+press enter button twice for output.
+
+#### Output
+```sh 
 you are a senior citizen
->>>
-``` 
+ >>>
+ ```
 
 ## Loops
 
@@ -298,15 +328,26 @@ for variable in range(start,end,incrementation):
 ```
 If not mentioned then starting is taken as 0 and incrementation as 1 to the specified end point.
 This code is valid for both python 3 and python 2.
+
+Example 1
+
 ```sh 
 $ python
 >>>for i in range(3):
 ...     print(“welcome to the world of security”)
+
+```
+
+press enter button twice for output.
+#### Output
+```sh
 welcome to the world of security
 welcome to the world of security
 welcome to the world of security
 >>>
 ```
+Example 2
+
 This code is valid for both python 3 and python 2.
 
 ```sh 
@@ -314,6 +355,10 @@ $ python3
 >>>i = "teambi0s"
 >>>for i in c:
 ...     print(i)
+```
+press enter button twice for output.
+#### Output
+```sh
 t
 e
 a
@@ -334,6 +379,8 @@ Syntax :
 while(condition):
     statments
 ```
+Example 1
+
 This code is valid for both python 3 and python 2.
 ```sh 
 $ python3
@@ -341,12 +388,13 @@ $ python3
 >>>while(flag!=3):
 ...     print(flag)
 ...     flag=flag+1
+```
+```sh 
 0
 1
 2
 >>>
 ```
-
 
 ### Nested Loops: 
 
@@ -358,6 +406,12 @@ $ python3
 >>>for i in range (3):
 ...     for j in range (2):
 ...         print(“this is nested”)
+```
+press enter button twice for output.
+
+#### Output
+
+```sh 
 this is nested
 this is nested
 this is nested
@@ -369,8 +423,5 @@ this is nested
 
 
 It will print 6 times.
-
-
-
 
 
