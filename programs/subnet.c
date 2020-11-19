@@ -1,7 +1,7 @@
 #include<stdio.h>
 int int main(int argc, char const *argv[])
 {
-	int i,n,sum;
+	int i,n,sum,j;
 	
 	scanf("%d",&n);
 	int set[n];

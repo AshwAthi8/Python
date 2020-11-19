@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 	printf("Enter the size of the array: ");
 	scanf("%d",&n);
 	int a[n];
-	for(i=0;i<n;i++)s
+	for(i=0;i<n;i++)
 	{
 		scanf("%d",&a[i]);
 
